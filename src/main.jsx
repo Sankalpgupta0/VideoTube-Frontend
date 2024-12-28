@@ -25,7 +25,7 @@ import { GoogleOAuthProvider } from '@react-oauth/google';
 
 
 // Import your publishable key
-const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
+const PUBLISHABLE_KEY = "pk_test_ZW5hYmxlZC10b2FkLTI5LmNsZXJrLmFjY291bnRzLmRldiQ"
 
 if (!PUBLISHABLE_KEY) {
   throw new Error("Missing Publishable Key")
